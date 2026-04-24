@@ -5,7 +5,7 @@ Dev-Detective: GitHub User Search App
 This project was built to master the integration of external APIs using JavaScript, focusing on asynchronous programming and DOM manipulation.
 
 Live Demo
-[Add a link to your live site here, e.g., GitHub Pages or Vercel]
+https://githubsearch-nu.vercel.app/
 
 Features
 - Real-time Search: Look up any GitHub user by their username.
