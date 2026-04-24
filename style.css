@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  background: #f6f8ff;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.container {
+  width: 100%;
+  max-width: 600px;
+}
+.search-box {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+button {
+  background: #0079ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Profile Card */
+.profile-card {
+  background: white;
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  background: #f6f8ff;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.repo-link {
+  display: block;
+  color: #0079ff;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
